@@ -38,6 +38,7 @@ namespace WebApplication8.Controllers
                 return NotFound();
             }
             return Ok(sport);
+            
         }
 
         // POST: api/sports
