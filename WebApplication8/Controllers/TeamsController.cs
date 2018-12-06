@@ -70,6 +70,7 @@ namespace WebApplication8.Controllers
         }
 
         // DELETE: api/teams/5
+        
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
