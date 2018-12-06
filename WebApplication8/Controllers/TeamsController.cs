@@ -21,6 +21,7 @@ namespace WebApplication8.Controllers
         }
 
         // GET: api/teams
+        
         [HttpGet]
         public IEnumerable<Team> Get()
         {
